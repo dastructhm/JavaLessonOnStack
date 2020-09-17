@@ -16,7 +16,7 @@ import java.util.*;
 public class Main {
 
     public static void main(String[] args) {
-        Stack<Integer> myStack = new Stack<Integer>();
+        Stack<Integer> myStack = new Stack<>();
         System.out.println("Current elements in my stack: " + myStack);
 
         System.out.print("Please enter your 1st element: ");
@@ -33,7 +33,7 @@ public class Main {
 
         System.out.print("Please enter your 3rd element: ");
         Scanner UserInput3 = new Scanner(System.in);
-        int myInteger3 = UserInput2.nextInt();
+        int myInteger3 = UserInput3.nextInt();
         myStack.push(myInteger3);
         System.out.println("After adding element " + myInteger3 + ", current elements in my stack: " + myStack);
 
